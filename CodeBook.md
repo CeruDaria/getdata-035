@@ -3,6 +3,7 @@
 The book summarizes the variables in the final data set.
 * subjectId - the ID of the subject performing the activity
 * activityType - the type of activity the corresponding subject was performing at the time of measurement
+
 List of measurements:
 * timeBodyAccMeanX
 * timeBodyAccMeanY
