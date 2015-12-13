@@ -20,27 +20,15 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
   * test/y_test.txt
   * test/subject_test.txt
 2. Merge the train and the test set to create one unified data set
-
-First merge each set with its corresponding subject and activity IDs using cbind.
-
-Merge the 2 resulting sets by using rbind.
-
+ * First merge each set with its corresponding subject and activity IDs using cbind.
+ * Merge the 2 resulting sets by using rbind.
 3. Extract only the measurements on the mean and standard deviation for each measurement.
-
-Use grep to find all measurements with mean and std.
-
-Use dplyr's select to select only these variables in the full data set.
-
+ * Use grep to find all measurements with mean and std.
+ * Use dplyr's select to select only these variables in the full data set.
 4. Use descriptive activity names to name the activities in the data set.
-
-Merge the activity labels and full data set using merge()
-
+ * Merge the activity labels and full data set using merge()
 5. Appropriately label the data set with descriptive variable names.
-
-Use gsub to replace ambiguous text with descriptive equivalents.
-
+ * Use gsub to replace ambiguous text with descriptive equivalents.
 6. Create an independent tidy data set with the average of each variable for each activity and each subject.
-
-Use the reshape2 package's melt and dcast to create such data set.
-
+ * Use the reshape2 package's melt and dcast to create such data set.
 7. Write the final data into a text file as instructed.
