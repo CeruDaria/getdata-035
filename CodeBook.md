@@ -11,14 +11,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Data transformation
 1. Read the following files into R:
-* activity_labels.txt
-* features.txt
-* train/X_train.txt
-* train/y_train.txt
-* train/subject_train.txt
-* test/X_test.txt
-* test/y_test.txt
-* test/subject_test.txt
+  * activity_labels.txt
+  * features.txt
+  * train/X_train.txt
+  * train/y_train.txt
+  * train/subject_train.txt
+  * test/X_test.txt
+  * test/y_test.txt
+  * test/subject_test.txt
 2. Merge the train and the test set to create one unified data set
 First merge each set with its corresponding subject and activity IDs using cbind.
 Merge the 2 resulting sets by using rbind.
